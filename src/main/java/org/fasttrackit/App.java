@@ -12,11 +12,13 @@ public class App {
 
 
 
-        Car firstCompetitor = new Car( new Engine());
-        firstCompetitor.name = "Dacia";
-        firstCompetitor.color = "black";
+        Car firstCompetitor;
+        firstCompetitor = new Car( new Engine());
+
+        firstCompetitor.setName("Dacia");
+        firstCompetitor.setColor  ("black");
         firstCompetitor.doorCount = 5;
-        firstCompetitor.mileage = 9.5;
+        firstCompetitor.setMileage (9.5);
 
         //local variables are variables declared inside a method
 
