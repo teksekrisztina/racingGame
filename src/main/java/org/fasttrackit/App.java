@@ -9,7 +9,10 @@ public class App {
     //declaring a variable and instantiating a Car object
     //this is also called initializing a variable
     {
-        Car firstCompetitor = new Car();
+
+
+
+        Car firstCompetitor = new Car( new Engine());
         firstCompetitor.name = "Dacia";
         firstCompetitor.color = "black";
         firstCompetitor.doorCount = 5;
@@ -40,5 +43,11 @@ public class App {
 
         System.out.println("traveled distance " + traveledDistance);
 
+
+
+
+
     }
+
+
 }
